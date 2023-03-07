@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Hanya untuk ngestore minimal number , tidak semua number di stack S masuk sini
 stack<int> Min_Stack;
 
 void push(int x, stack<int>& S)
